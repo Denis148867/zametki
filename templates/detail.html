@@ -1,0 +1,13 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<p>{{file}}</p>
+<form action="{{url_for('delnotes',key=key)}}" method="post">
+<button class="info"    type="submit"> удалить заметку</button>
+</form>
+
+    <a class="info" href="/edit/{{key}}">изменить заметку</a>
+
+{% endblock %}

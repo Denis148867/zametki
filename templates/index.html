@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <a class="butt" href="/add">добавить заметку</a>
+
+<h1>заметки:</h1>
+{% for title,text in notes.items() %}
+<a class="butt" href="/detail/{{title}}">
+{{title}}
+    </a>
+<br>
+<br>
+<br>
+{% endfor %}
+
+{% endblock %}

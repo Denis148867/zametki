@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<button>
+    <a href="/" >вернуться на главную</a>
+</button>
+<h1>изменить текст заметки</h1>
+<form method="post" action="{{url_for('edit',key = key)}}">
+    <input type="text" name="text" placeholder="добавьте текст">
+    <button type="submit">изменить заметку</button>
+</form>
+<br>
+
+{% endblock %}

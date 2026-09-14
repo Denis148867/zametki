@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<button>
+    <a href="/" >вернуться на главную</a>
+</button>
+<h1>добавить заметку</h1>
+<form method="post">
+    <input type="text" name="title" placeholder="введите заголовок">
+    <input type="text" name="text" placeholder="добавьте текст">
+    <button type="submit">добавить заметку</button>
+</form>
+<br>
+<h1 style="color:red;">{{error}}</h1>
+
+{% endblock %}
