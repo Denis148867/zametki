@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-vector/blue-gradient-background-wallpaper-for-backdrop-or-presentation_1110513-1411.jpg?w=826") ;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+
+
+}
+a.info {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+
+    color: #000;
+    background: grey;
+    border: 1px solid #000;
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+
+button.info {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+
+    color: #000;
+    background: grey;
+    border: 1px solid #000;
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+
+.butt {
+    color: black;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: red;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 10px 30px;
+    display: inline-block;
+    width: 400px;
+}
+
+p {
+    font-size: 25px;
+    color: chocolate;
+}
